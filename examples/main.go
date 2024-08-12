@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-
 	broker := broker.NewBroker()
 
 	companies, err := broker.SearchMT4("Robo")
